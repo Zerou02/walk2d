@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://8okpo465ic8o"]
+
+[ext_resource type="Script" path="res://scripts/cGOL/cGol.gd" id="1_42l7k"]
+[ext_resource type="PackedScene" uid="uid://xvh7fjh4jmus" path="res://scenes/cGOL/cGOLGrid.tscn" id="2_iud8r"]
+
+[node name="cGOL" type="Node2D"]
+script = ExtResource("1_42l7k")
+
+[node name="cGOL" parent="." instance=ExtResource("2_iud8r")]
